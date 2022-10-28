@@ -1,0 +1,15 @@
+@hostname = {{$dotenv ROCKSMITH_API_HOST}}
+@version = {{$dotenv ROCKSMITH_API_VERSION}}
+@song_api_uri = https://{{hostname}}/{{version}}/songLibrary
+
+### Get Genre List
+
+GET {{song_api_uri}}/getTypesOfGenre
+
+
+### Get Songs by Genre Paged
+
+GET {{song_api_uri}}/songs
+    ?genre=rock
+    &pageSize=25
+    &page=1
