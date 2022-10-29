@@ -2,7 +2,7 @@
 
 import chalk from "chalk";
 import assert from "assert";
-import { getGenres, getSongsByGenre } from "./lib/api.mjs";
+import { getGenres, getSongsByGenre } from "../lib/api.mjs";
 
 (async function () {
   try {

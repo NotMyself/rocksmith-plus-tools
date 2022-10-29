@@ -30,11 +30,12 @@ export async function getGenres() {
 export async function getSongsByGenre(genre, params = {page:1, pageSize: 25}) {
     const res = await songApi.get('/songs',{ params:{ genre, ...params } });
     const totalPages = res.data.totalPages;
-    const pageRequests = Array(totalPages).map(async (_, page) => {
-        return await songApi.get('/songs', { params: { genre, page, pageSize: params.pageSize} })
-            .then(res => res.data.data);
-    });
-    const songs = await Promise.all(pageRequests);
+    const pageRequests = [];
+    for(let i = params.page + 1; i <= totalPages; i++)
+        pageRequests.push(await songApi.get('/songs', { params: { genre, page: i, pageSize: params.pageSize} })
+        .then(res => res.data.data));
 
-    return songs.addRange(res.data.data);    
+    const songs = Array.concat(await Promise.all(pageRequests));
+
+    return songs.concat(res.data.data);    
 }

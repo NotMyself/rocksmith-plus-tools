@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "description": "A set of tools for Rocksmith+",
-  "scripts": {},
+  "scripts": {
+    "data:refresh":"./src/scripts/refresh_data.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NotMyself/rocksmith_plus_tools.git"

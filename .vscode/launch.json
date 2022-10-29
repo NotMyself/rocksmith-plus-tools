@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+    ],
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Refresh Database",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+              "run",
+              "data:refresh"
+            ],
+            "cwd": "${workspaceFolder}/src/scripts",
+            "skipFiles": [
+              "<node_internals>/**"
+            ]
+          }
+    ]
+}
