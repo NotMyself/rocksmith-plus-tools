@@ -1,3 +1,28 @@
 {
-    
+    "workbench.sideBar.location": "right",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+      "**/*.env": true,
+      "**/node_modules": true,
+      "**/package-lock.json": true,
+      "**/bin": true,
+      "**/obj": true,
+      "**/.git": true,
+      "**/.DS_Store": true
+    } 
 }
