@@ -68,7 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://iamnotmyself.com"><img src="https://avatars.githubusercontent.com/u/73120?v=4?s=100" width="100px;" alt="Bobby Johnson"/><br /><sub><b>Bobby Johnson</b></sub></a><br /><a href="#code-NotMyself" title="Code">💻</a> <a href="#doc-NotMyself" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://iamnotmyself.com"><img src="https://avatars.githubusercontent.com/u/73120?v=4?s=100" width="100px;" alt="Bobby Johnson"/><br /><sub><b>Bobby Johnson</b></sub></a><br /><a href="#code-NotMyself" title="Code">💻</a> <a href="#doc-NotMyself" title="Documentation">📖</a> <a href="#bug-NotMyself" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
