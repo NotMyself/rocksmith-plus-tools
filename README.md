@@ -8,7 +8,20 @@ A set of tools for Rocksmith+
 
 This project contains [Development Containers](https://containers.dev/) definitions and is intended to be worked on using development containers. This ensures you have all the tools needed to build and run these tools available in the development environment. 
 
-Develoment Containers can be run both locally or via GitHub Codespaces.
+Develoment Containers can be run both [locally](#running-locally) or via [GitHub Codespaces](#running-in-codespaces).
+
+### NPM Scripts
+
+Currently, the tools are run via npm scripts. The following table lists the available commands.
+
+| Command | Debug Menu | Purpose |
+|---|---|---|
+|npm run data:clean| N/A | removes the `./data` and `./logs` directories|
+| npm run data:refresh | Refresh Data | Fetches a list of genres and all associated songs. Then writes them to the `./data` directory. |
+
+**Note:** Direct CLI commands can be run in the container using the VSCode by hitting **CMD+`** to bring up the terminal.
+
+**Note:** The code can be run in a debugger, but selecting the debug menu name from the Run and Debug menu in VSCode.
 
 ## Running in CodeSpaces
 

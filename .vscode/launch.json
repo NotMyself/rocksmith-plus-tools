@@ -6,7 +6,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Refresh Database",
+            "name": "Refresh Data",
             "runtimeExecutable": "npm",
             "runtimeArgs": [
               "run",
