@@ -10,6 +10,13 @@ This project contains [Development Containers](https://containers.dev/) definiti
 
 Develoment Containers can be run both locally or via GitHub Codespaces.
 
+## Running in CodeSpaces
+
+1. [Fork the repository](https://github.com/NotMyself/rocksmith-plus-tools/fork) to your GitHub account.
+1. Click the green **Code** dropdown button.
+1. Select the **Codespaces** tab.
+1. Click the green **Create codespace on main** button.
+
 ## Running Locally
 
 1. Ensure your system meets the [requirements](#requirements).
@@ -27,8 +34,6 @@ Develoment Containers can be run both locally or via GitHub Codespaces.
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 1. Install [VSCode](https://code.visualstudio.com/), the [Insiders Edition](https://code.visualstudio.com/insiders) is highly recommended.
 1. Install [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension for VSCode
-
-## Running in CodeSpaces
 
 ## Contributing
 
