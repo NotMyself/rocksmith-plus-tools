@@ -10,6 +10,16 @@ This project contains [Development Containers](https://containers.dev/) definiti
 
 Develoment Containers can be run both [locally](#running-locally) or via [GitHub Codespaces](#running-in-codespaces).
 
+### Environment Variables
+
+This project uses dotenv to externalize strings that might change or are secret and should not be commited to source control. The file **sample.env** contains the required variables along with default values. If the value is a secret it is left blank and must be populated before the code runs.
+
+To use the default values, write them to a .env file located at the root of the workspace using this command:
+
+```bash
+cat sample.env > ./.env
+```
+
 ### NPM Scripts
 
 Currently, the tools are run via npm scripts. The following table lists the available commands.
