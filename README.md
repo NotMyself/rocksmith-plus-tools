@@ -1,6 +1,6 @@
 # Rocksmith+ Tools
 
-[![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/NotMyself/rocksmith-plus-tools?color=ee8449&style=flat-square)](#contributors)
 
 A set of tools for Rocksmith+
 
