@@ -14,9 +14,9 @@ Develoment Containers can be run both [locally](#running-locally) or via [GitHub
 
 Currently, the tools are run via npm scripts. The following table lists the available commands.
 
-| Command | Debug Menu | Purpose |
+| <div style="width:130px">Command</div> | <div style="width:100px">Debug Menu</div> | Purpose |
 |---|---|---|
-|npm run data:clean| N/A | removes the `./data` and `./logs` directories|
+|npm run data:clean| N/A | Removes the `./data` and `./logs` directories.|
 | npm run data:refresh | Refresh Data | Fetches a list of genres and all associated songs. Then writes them to the `./data` directory. |
 
 **Note:** Direct CLI commands can be run in the container using the VSCode by hitting **CMD+`** to bring up the terminal.
