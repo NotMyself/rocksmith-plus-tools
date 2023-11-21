@@ -36,13 +36,13 @@ export async function getSongsByGenre(genre, params = { page: 1, pageSize: 25 })
   const res = await songApi.get('/songs', { params: { genre, ...params } });
   const songs = [res.data.data];
   const totalPages = res.data.totalPages;
-  logger.info(`Fetched page: ${params.page} of ${totalPages}`);
+  logger.info(`Fetched page: ${params.page} of ${totalPages} in ${genre}`);
 
   for (let page = params.page + 1; page <= totalPages; page++) {
     const songPage = await songApi
       .get('/songs', { params: { genre, page, pageSize: params.pageSize } })
       .then((res) => {
-        logger.debug(`Fetched page: ${page} of ${totalPages}`);
+        logger.debug(`Fetched page: ${page} of ${totalPages} in ${genre}`);
         return res.data.data;
       });
     songs.push(songPage);
