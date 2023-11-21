@@ -6,7 +6,27 @@ A set of tools for Rocksmith+
 
 ## Getting Started
 
+This project contains [Development Containers](https://containers.dev/) definitions and is intended to be worked on using development containers. This ensures you have all the tools needed to build and run these tools available in the development environment. 
+
+Develoment Containers can be run both locally or via GitHub Codespaces.
+
 ## Running Locally
+
+1. Ensure your system meets the [requirements](#requirements).
+1. Ensure Docker for Desktop is running.
+1. Clone the repository: `git clone git@github.com:NotMyself/rocksmith-plus-tools.git`.
+1. Change directory into the cloned repository `cd rocksmith-plus-tools`.
+1. Open the project in VSCode `code-insiders .` or `code .` depending on what version you chose to install.
+1. When prompted, select the **Reopen in Container** option.
+
+<p align="center">
+<img width="300px" src="https://github.com/NotMyself/rocksmith-plus-tools/blob/feat/readme-getting-started/docs/reopen-in-container.dialog.png?raw=true" />
+</p>
+
+### Requirements
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+1. Install [VSCode](https://code.visualstudio.com/), the [Insiders Edition](https://code.visualstudio.com/insiders) is highly recommended.
+1. Install [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension for VSCode
 
 ## Running in CodeSpaces
 
