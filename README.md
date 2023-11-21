@@ -20,7 +20,7 @@ Develoment Containers can be run both locally or via GitHub Codespaces.
 1. When prompted, select the **Reopen in Container** option.
 
 <p align="center">
-<img width="300px" src="https://github.com/NotMyself/rocksmith-plus-tools/blob/feat/readme-getting-started/docs/reopen-in-container.dialog.png?raw=true" />
+<img width="300px" src="https://github.com/NotMyself/rocksmith-plus-tools/blob/main/docs/reopen-in-container.dialog.png?raw=true" />
 </p>
 
 ### Requirements
