@@ -1,4 +1,22 @@
 {
   "projectName": "rocksmith-plus-tools",
-  "projectOwner": "NotMyself"
+  "projectOwner": "NotMyself",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "NotMyself",
+      "name": "Bobby Johnson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73120?v=4",
+      "profile": "https://iamnotmyself.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ]
 }
